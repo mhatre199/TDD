@@ -37,4 +37,14 @@ package com.example.stringTssting.string;
 
         return sum;
     }
+
+     private int callCount = 0;
+     public int GetCalledCount() {
+         return callCount;
+     }
+
+
+
+
+
 }
